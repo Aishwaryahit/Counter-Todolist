@@ -1,24 +1,145 @@
 .container {
-  display: block;
-  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
   padding: 20px;
-  margin-bottom: 50px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  background-color: #f9f9f9;
+}
 
+.container h1 {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
 }
 
 .btn {
   display: flex;
   gap: 20px;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  margin-top: 20px; 
 }
 
-
-input {
-  display: block;
-  text-align: center; 
+.btn button {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
+
+.btn button:hover {
+  background-color: #45a049;
+}
+
+.btn button:last-child {
+  background-color: #f44336;
+}
+
+.btn button:last-child:hover {
+  background-color: #e53935;
+}
+
 .content{
   text-align: justify;
+  padding: 20px;
+}
+.Cont {
+  width: 40%;
+  margin: 50px auto;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  background-color: #f9f9f9;
+  min-height: 300px;
+  padding: 20px;
+}
+
+.Cont h1 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sub-cont {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.sub-cont input {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#bttn {
+  background-color: thistle;
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+#bttn:hover {
+  background-color: #d3b3d8;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+}
+
+ul li {
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+ul li button {
+  background-color: rgb(255, 105, 97);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  padding: 6px 28px;
+  font-size: 12px;
+}
+
+ul li button:hover {
+  background-color: rgb(255, 79, 72);
 }
