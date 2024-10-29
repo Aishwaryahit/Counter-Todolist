@@ -28,6 +28,9 @@ input {
   border-radius: 4px;
   margin-bottom: 20px;
 }
+table{
+  margin-left:25%;
+}
 
 .btn {
   display: flex;
@@ -99,7 +102,7 @@ input {
 }
 
 #bttn {
-  background-color: thistle;
+  background-color: rgb(231, 58, 142);
   width: 100px;
   height: 35px;
   border: none;
@@ -142,4 +145,51 @@ ul li button {
 
 ul li button:hover {
   background-color: rgb(255, 79, 72);
+}
+.opti h1{
+  text-align:center;
+}
+
+ #tab{
+  margin-left:40%;
+  width:200px;
+}
+#inp{
+  width: 69px;
+  height: 4px;
+  margin-top: 7px;
+}
+#bt{
+  background-color: deeppink;
+  margin-bottom: 15px;
+  margin-left: 16px;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.timer-title {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.timer-display {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.timer-display span {
+  font-weight: bold;
+  color: #d9534f; /* Red color for emphasis */
 }
