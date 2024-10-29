@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 function ToDoList() {
+  
     const [content, setContent] = useState("");
     const [tasks, setTasks] = useState([]);
 
@@ -16,8 +17,9 @@ function ToDoList() {
     };
 
     return (
-        <div className="Cont">
-            <div className="sub-cont">
+        <div className="Cont">  
+        <h1>To-do list</h1>
+    <div className="sub-cont">
                 <input
                     type="text"
                     id="list"
@@ -25,7 +27,7 @@ function ToDoList() {
                     onChange={(e) => setContent(e.target.value)}
                     placeholder="Enter a task"
                 />
-                <button onClick={addTask}>ADD</button>
+                <button id="bttn"onClick={addTask}>ADD</button>
             </div>
             <ul>
                 {tasks.map((task, index) => (
